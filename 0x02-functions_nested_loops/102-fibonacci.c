@@ -18,4 +18,5 @@ int main(void)
 		a = fib;
 		printf("%d, ", fib);
 	}
+	return (0);
 }
