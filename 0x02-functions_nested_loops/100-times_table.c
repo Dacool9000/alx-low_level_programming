@@ -20,9 +20,9 @@ for (x = 0; x <= n; x++)
 		{
 		_putchar(44);
 		_putchar(32);
-		_putchar(z + 48);
+		_putchar(z + '0');
 		}
-		if (z > 9 && z <= 99)
+		if (z > 8 && z <= 99)
 		{
 			u = z % 10;
 			d = (z - u) / 10;
