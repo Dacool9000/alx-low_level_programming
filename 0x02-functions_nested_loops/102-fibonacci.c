@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	int a, i, fib, c;
+	unsigned long a, i, fib;
+	int c;
 
 	a = 1;
 	fib = i = 0;
@@ -16,7 +17,7 @@ int main(void)
 		fib = i + a;
 		i = a;
 		a = fib;
-		printf("%d, ", fib);
+		printf("%lu, ", fib);
 	}
 	return (0);
 }
