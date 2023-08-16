@@ -4,7 +4,7 @@
  * main - fibonici
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int a, i, fib, c;
 
