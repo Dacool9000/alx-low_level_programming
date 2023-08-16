@@ -19,5 +19,6 @@ int main(void)
 		a = fib;
 		printf("%lu, ", fib);
 	}
+	printf("\n");
 	return (0);
 }
