@@ -12,7 +12,6 @@ int main(void)
 
 	a = 2;
 	fib = i = 1;
-	printf("2");
 	for (c = 1; c <= 49; c++)
 	{
 		fib = i + a;
@@ -21,10 +20,9 @@ int main(void)
 		if ((fib % 2 == 0) && fib <= 4000000)
 		{
 			fib2 = fib + fib2;
-		printf(", ");
-		printf("%lu", fib2);
 		}
 	}
+	printf("%lu", fib2);
 	printf("\n");
 	return (0);
 }
