@@ -10,14 +10,16 @@ int main(void)
 	int c;
 
 	a = 1;
-	fib = i = 0;
-
-	for (c = 1; c <= 50; c++)
+	fib = i = 1;
+	
+	printf("1");
+	for (c = 1; c <= 49; c++)
 	{
 		fib = i + a;
 		i = a;
 		a = fib;
-		printf("%lu, ", fib);
+		printf(", ");
+		printf("%lu", fib);
 	}
 	printf("\n");
 	return (0);
