@@ -11,7 +11,6 @@ int main(void)
 
 	a = 1;
 	fib = i = 1;
-	
 	printf("1");
 	for (c = 1; c <= 49; c++)
 	{
